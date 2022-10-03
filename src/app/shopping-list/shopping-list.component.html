@@ -1,0 +1,8 @@
+<div class="text-center mt-20">
+    <app-shopping-edit></app-shopping-edit>
+    <p class="mt-10">The list</p>
+    <ul *ngFor="let ingredient of ingredients">
+        <li>{{ingredient.name}}</li>
+        <li>({{ingredient.amount}})</li>
+    </ul>
+</div>
